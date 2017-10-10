@@ -1,0 +1,50 @@
+/*body{
+    background-color:green;
+}
+*/
+
+.teste{
+    background-color: pink;
+    font-size: 20px;
+}
+
+.teste2{
+    background-color: lawngreen;
+}
+
+.teste3{
+
+    background-color: deepskyblue;
+}
+
+.primeira{
+    width: 70%;
+    height: auto;
+}
+
+.segunda{
+    width: 70%;
+    height: auto;
+}
+
+.terceira{
+    width:70%;
+    height: auto;
+}
+
+@media only screen and (max-width:360px){
+    body{
+        background-color: green;   
+    }
+}
+@media only screen and (max-width:320px){
+    body{
+        background-color: deepskyblue;   
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    body{
+        background-color: deeppink;   
+    }
+}
